@@ -1,0 +1,62 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Small research-portfolio tweaks */
+.page-content {
+  padding-top: 24px;
+}
+
+.wrapper {
+  max-width: 920px;
+}
+
+.hero {
+  margin: 12px 0 28px;
+}
+.hero h1 {
+  margin-bottom: 6px;
+}
+.hero .tagline {
+  margin: 0 0 10px;
+  opacity: 0.85;
+}
+.links a {
+  margin-right: 12px;
+  white-space: nowrap;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.card {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 12px;
+  padding: 16px 16px 12px;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.meta {
+  font-size: 0.95em;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.badges span {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.15);
+  margin-right: 6px;
+  margin-bottom: 6px;
+  font-size: 0.85em;
+}
